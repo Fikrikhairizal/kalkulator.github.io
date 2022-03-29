@@ -1,0 +1,83 @@
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 8s linear infinite;
+}
+  
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+body {
+    margin: 0;
+    background: radial-gradient(#3a2f61,#08506b, black)no-repeat fixed;
+    padding: 50px 0px;
+}
+button.clear {
+    background: #000000;
+    color: #fff;
+}
+table {
+    background: rgb(42, 41, 49);
+    padding: 7px 5px;
+    border: 6px solid #00000000;
+    text-align: center;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 27px #17191a;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+button.equal {
+    width: 88%;
+    background: #000000;
+}
+button.equal:hover{
+	background: #2aa057;
+}
+input[type="text"] {
+    width: 450px;
+    height: 81px;
+    border: 1px solid rgb(31, 22, 22);
+    padding: 10px 20px;
+    font-size: 29px;
+    background: #161616;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: cursive;
+    margin-top: 10px;
+    color: #dedede;
+    border-bottom: 2px solid #ddd5d2;
+}
+button {
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+    background: #000803;
+    border: none;
+    color: #e6d3cd;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+	background: #382620;
+}
